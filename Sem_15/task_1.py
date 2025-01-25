@@ -10,8 +10,8 @@
 # Решение:
 from pathlib import Path
 import logging
-_PATH_1 = Path.cwd() / "output" / "task_1" / "debug_info.log"
-_PATH_2 = Path.cwd() / "output" / "task_1" / "warnings_errors.log"
+_PATH_1 = Path.cwd() / "input" / "task_1" / "debug_info.log"
+_PATH_2 = Path.cwd() / "input" / "task_1" / "warnings_errors.log"
 logging.basicConfig(format="{asctime}s – {name}s – {levelname}s – {message}s",
                     style='{',
                     level=logging.DEBUG)

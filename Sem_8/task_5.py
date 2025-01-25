@@ -17,8 +17,8 @@ import csv
 import json
 from pathlib import Path
 
-_PATH_1 = Path.cwd() / "sources" / "Zad_5" / "books.csv"
-_PATH_2 = Path.cwd() / "sources" / "Zad_5" / "books_by_author.json"
+_PATH_1 = Path.cwd() / "input" / "Zad_5" / "books.csv"
+_PATH_2 = Path.cwd() / "input" / "Zad_5" / "books_by_author.json"
 
 
 def convert_csv_to_json(input_csv, output_json):

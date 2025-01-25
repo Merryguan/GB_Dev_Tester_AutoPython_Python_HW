@@ -15,8 +15,8 @@
 import csv
 from pathlib import Path
 
-_PATH_1 = Path.cwd() / "sources" / "Zad_4" / "sales.csv"
-_PATH_2 = Path.cwd() / "sources" / "Zad_4" / "total_sales.csv"
+_PATH_1 = Path.cwd() / "input" / "Zad_4" / "sales.csv"
+_PATH_2 = Path.cwd() / "input" / "Zad_4" / "total_sales.csv"
 
 
 def calculate_total_sales(input_csv, output_csv):

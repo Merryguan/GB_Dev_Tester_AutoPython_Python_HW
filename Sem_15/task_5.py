@@ -20,8 +20,8 @@ from pathlib import Path
 from os import walk, path
 import logging
 import argparse
-_PATH_1 = Path.cwd() / "output"
-_PATH_2 = Path.cwd() / "output" / "task_5" / "info.log"
+_PATH_1 = Path.cwd() / "input"
+_PATH_2 = Path.cwd() / "input" / "task_5" / "info.log"
 logging.basicConfig(filename=str(_PATH_2), filemode='a', encoding="utf-8",
                     format="{levelname} - {asctime}s: {msg}",
                     style='{',

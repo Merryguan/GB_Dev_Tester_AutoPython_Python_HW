@@ -24,7 +24,7 @@ import json
 import csv
 import pickle
 
-_PATH = Path.cwd() / "Sources"
+_PATH = Path.cwd() / "input"
 
 
 def get_size(dir_path: str):

@@ -16,8 +16,8 @@ import json
 from pathlib import Path
 import glob
 
-_PATH_1 = Path.cwd() / "sources" / "Zad_2" / "*.json"
-_PATH_2 = Path.cwd() / "sources" / "Zad_2" / "all_employees.json"
+_PATH_1 = Path.cwd() / "input" / "Zad_2" / "*.json"
+_PATH_2 = Path.cwd() / "input" / "Zad_2" / "all_employees.json"
 
 result = list()
 
